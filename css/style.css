@@ -1,3 +1,32 @@
+body{
+  margin-top: 100px;
+}
+
+.navbar-toggler{
+  background-color: blue;
+}
+.navbar-nav .active a{
+  color: blue;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+.navbar-nav a{
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.navbar-nav li
+{
+  padding-right: 20px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+}
+.dropdown-toggle::after {
+  content: none;
+}
+
 /* CSS untuk carousel yang aktif / di tengah */
 .owl-item.active.center .slider-card {
   transform: scale(1);
@@ -35,4 +64,48 @@ a{
 a:hover{
   color: black;
   text-decoration: underline;
+}
+
+footer{
+  background-color: darkblue;
+}
+footer .nav-link{
+  color: white;
+}
+footer .active{
+  color: blue;
+  text-decoration: underline;
+}
+footer .nav-link:hover{
+  color: blue;
+}
+footer p{
+  color: white;
+}
+footer .text-copyright{
+  margin-bottom : 0px;
+}
+.social-icon .fa-facebook:hover{
+  color: blue;
+}
+.social-icon .fa-instagram:hover{
+  color: palevioletred;
+}
+.social-icon .fa-twitter:hover{
+  color: lightblue;
+}
+.social-icon .fa-link:hover{
+  color: black;
+}
+.social-icon .fa-envelope:hover{
+  color: coral;
+}
+
+.social-icon{
+  margin-bottom: 2rem;
+}
+.social-icon a{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: white;
 }
