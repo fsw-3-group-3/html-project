@@ -1,27 +1,26 @@
-body{
+body {
   margin-top: 100px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   background-color: blue;
 }
-.navbar-nav .active a{
+.navbar-nav .active a {
   color: blue;
   border-radius: 10px;
   text-decoration: underline;
 }
-.navbar-nav a{
+.navbar-nav a {
   border-radius: 10px;
   font-weight: bold;
 }
 
-.navbar-nav li
-{
+.navbar-nav li {
   padding-right: 20px;
 }
 .dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 0; 
+  margin-top: 0;
 }
 .dropdown-toggle::after {
   content: none;
@@ -47,64 +46,64 @@ body{
   border-radius: 20px;
 }
 
-.btn {
-  background-color: #3250C0 ;
+.harus-tahu .btn {
+  background-color: #3250c0;
 }
 
-h5{
+.harus-tahu h5 {
   color: red;
   font-weight: bold;
 }
 
-a{
+.harus-tahu a {
   color: black;
   text-decoration: none;
 }
 
-a:hover{
+.harus-tahu a:hover {
   color: black;
   text-decoration: underline;
 }
 
-footer{
+footer {
   background-color: darkblue;
 }
-footer .nav-link{
+footer .nav-link {
   color: white;
 }
-footer .active{
+footer .active {
   color: blue;
   text-decoration: underline;
 }
-footer .nav-link:hover{
+footer .nav-link:hover {
   color: blue;
 }
-footer p{
+footer p {
   color: white;
 }
-footer .text-copyright{
-  margin-bottom : 0px;
+footer .text-copyright {
+  margin-bottom: 0px;
 }
-.social-icon .fa-facebook:hover{
+.social-icon .fa-facebook:hover {
   color: blue;
 }
-.social-icon .fa-instagram:hover{
+.social-icon .fa-instagram:hover {
   color: palevioletred;
 }
-.social-icon .fa-twitter:hover{
+.social-icon .fa-twitter:hover {
   color: lightblue;
 }
-.social-icon .fa-link:hover{
+.social-icon .fa-link:hover {
   color: black;
 }
-.social-icon .fa-envelope:hover{
+.social-icon .fa-envelope:hover {
   color: coral;
 }
 
-.social-icon{
+.social-icon {
   margin-bottom: 2rem;
 }
-.social-icon a{
+.social-icon a {
   margin-left: 1rem;
   margin-right: 1rem;
   color: white;

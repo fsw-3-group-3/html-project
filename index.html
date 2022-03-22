@@ -25,25 +25,29 @@
       crossorigin="anonymous"
     />
 
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- My Css -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logo-nav.png">
   </head>
   <body>
 
-     <!-- Navbar -->
-     <header>
+    <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container pt-2 pb-2">
-          <div>
+        <div class="container">
             <a class="navbar-brand" href="#">
               <img src="img/logo-nav.png" width="50" height="50" alt="">
             </a>
-          </div>
-          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
-          </button>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -98,7 +102,7 @@
               <li class="dropdown">
                 <a class="nav-link  dropdown-item dropdown-toggle" href="#">
                     Peraturan
-               </a>
+              </a>
                 <ul class="dropdown-menu">          
                   <li >
                     <a class="dropdown-item" href="https://covid19.go.id/p/protokol">
@@ -177,14 +181,18 @@
             </ul>
             <a href="https://covid19.go.id/p/hoax-buster" class="btn btn-danger">Hoax Buster</a>
           </div>
-           
         </div>
       </nav>
-    </header>
     <!-- End Navbar -->
 
     <!-- Page Header -->
+    
     <section class="page-header">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col text-center"><h1 class="text-header"></h1></div>
+        </div>
+      </div>
       <div class="owl-carousel owl-theme mt-5">
         <div class="slider-card">
           <div class="item">
@@ -213,7 +221,7 @@
 
     <!-- Data Sebaran -->
     <section class="data-sebaran">
-      <div class="container">
+      <div class="container" data-aos="zoom-out-right" data-aos-offset="500" data-aos-delay="200" data-aos-once="true">
         <div class="row mt-5 mb-3">
           <div class="col"><h1>Data Sebaran</h1></div>
         </div>
@@ -301,8 +309,8 @@
     <!-- End Data Sebaran -->
 
     <!-- Informasi Penting -->
-    <section>
-      <div class="container my-3">
+    <section class="informasi-penting">
+      <div class="container my-3 mt-5 pt-5" data-aos="zoom-in" data-aos-offset="500" data-aos-once="true">
         <div class="row">
           <div class="col-lg-12 col-sm-6"><h1>Informasi Penting Untuk Kamu</h1></div>
           <hr>
@@ -312,21 +320,21 @@
             <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item mb-3 active">
-                  <img src="/html-project/assets/1.png" class="d-block w-100" alt="...">
+                  <img src="img/1.png" class="d-block w-100" alt="...">
                   <div class="ps-1 pt-2">
                     <h6 class="m-0" style="font-size: 12px; color: brown;">14 Mar 2022</h6>
                     <a style="color: black; font-weight: bolder; max-width: 330px;" class="navbar-brand d-inline-block text-truncate m-0 p-0" href="https://covid19.go.id/artikel/2022/03/13/situasi-covid-19-di-indonesia-update-13-maret-2022">Situasi COVID-19 di Indonesia (Update per 13 Maret 2022)</a>
                   </div>
                 </div>
                 <div class="carousel-item mb-3">
-                  <img src="/html-project/assets/2.png" class="d-block w-100" alt="...">
+                  <img src="img/2.png" class="d-block w-100" alt="...">
                   <div class="ps-1 pt-2">
                     <h6 class="m-0" style="font-size: 12px; color: brown;">18 Mar 2022</h6>
                     <a style="color: black; font-weight: bolder; max-width: 330px;" class="navbar-brand d-inline-block text-truncate m-0 p-0" href="https://covid19.go.id/artikel/2022/03/18/monitoring-kepatuhan-protokol-kesehatan-tingkat-nasional-update-13-maret-2022">Monitoring Kepatuhan Protokol Kesehatan Tingkat Nasional (Update per 13 Maret 2022)</a>
                   </div>
                 </div>
                 <div class="carousel-item mb-3">
-                  <img src="/html-project/assets/3.jpg" class="d-block w-100" alt="...">
+                  <img src="img/3.jpg" class="d-block w-100" alt="...">
                   <div class="ps-1 pt-2">
                     <h6 class="m-0" style="font-size: 12px; color: brown;">16 Mar 2022</h6>
                     <a style="color: black; font-weight: bolder; max-width: 330px;" class="navbar-brand d-inline-block text-truncate m-0 p-0" href="https://covid19.go.id/artikel/2022/03/16/program-bantuan-tunai-pedagang-kaki-lima-warung-dan-nelayan-bt-pklwn-mulai-disalurkan">Program Bantuan Tunai Pedagang Kaki Lima, Warung dan Nelayan (BT-PKLWN) Mulai Disalurkan</a>
@@ -347,21 +355,21 @@
             <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item mb-3 active">
-                  <img src="/html-project/assets/2.png" class="d-block w-100" alt="...">
+                  <img src="img/2.png" class="d-block w-100" alt="...">
                   <div class="ps-1 pt-2">
                     <h6 class="m-0" style="font-size: 12px; color: brown;">18 Mar 2022</h6>
                     <a style="color: black; font-weight: bolder; max-width: 330px;" class="navbar-brand d-inline-block text-truncate m-0 p-0" href="https://covid19.go.id/artikel/2022/03/18/monitoring-kepatuhan-protokol-kesehatan-tingkat-nasional-update-13-maret-2022">Monitoring Kepatuhan Protokol Kesehatan Tingkat Nasional (Update per 13 Maret 2022)</a>
                   </div>
                 </div>
                 <div class="carousel-item mb-3">
-                  <img src="/html-project/assets/1.png" class="d-block w-100" alt="...">
+                  <img src="img/1.png" class="d-block w-100" alt="...">
                   <div class="ps-1 pt-2">
                     <h6 class="m-0" style="font-size: 12px; color: brown;">14 Mar 2022</h6>
                     <a style="color: black; font-weight: bolder; max-width: 330px;" class="navbar-brand d-inline-block text-truncate m-0 p-0" href="https://covid19.go.id/artikel/2022/03/13/situasi-covid-19-di-indonesia-update-13-maret-2022">Situasi COVID-19 di Indonesia (Update per 13 Maret 2022)</a>
                   </div>
                 </div>
                 <div class="carousel-item mb-3">
-                  <img src="/html-project/assets/3.jpg" class="d-block w-100" alt="...">
+                  <img src="img/3.jpg" class="d-block w-100" alt="...">
                   <div class="ps-1 pt-2">
                     <h6 class="m-0" style="font-size: 12px; color: brown;">16 Mar 2022</h6>
                     <a style="color: black; font-weight: bolder; max-width: 330px;" class="navbar-brand d-inline-block text-truncate m-0 p-0" href="https://covid19.go.id/artikel/2022/03/16/program-bantuan-tunai-pedagang-kaki-lima-warung-dan-nelayan-bt-pklwn-mulai-disalurkan">Program Bantuan Tunai Pedagang Kaki Lima, Warung dan Nelayan (BT-PKLWN) Mulai Disalurkan</a>
@@ -382,21 +390,21 @@
             <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item mb-3 active">
-                  <img src="/html-project/assets/3.jpg" class="d-block w-100" alt="...">
+                  <img src="img/3.jpg" class="d-block w-100" alt="...">
                   <div class="ps-1 pt-2">
                     <h6 class="m-0" style="font-size: 12px; color: brown;">16 Mar 2022</h6>
                     <a style="color: black; font-weight: bolder; max-width: 330px;" class="navbar-brand d-inline-block text-truncate m-0 p-0" href="https://covid19.go.id/artikel/2022/03/16/program-bantuan-tunai-pedagang-kaki-lima-warung-dan-nelayan-bt-pklwn-mulai-disalurkan">Program Bantuan Tunai Pedagang Kaki Lima, Warung dan Nelayan (BT-PKLWN) Mulai Disalurkan</a>
                   </div>
                 </div>
                 <div class="carousel-item mb-3">
-                  <img src="/html-project/assets/2.png" class="d-block w-100" alt="...">
+                  <img src="img/2.png" class="d-block w-100" alt="...">
                   <div class="ps-1 pt-2">
                     <h6 class="m-0" style="font-size: 12px; color: brown;">18 Mar 2022</h6>
                     <a style="color: black; font-weight: bolder; max-width: 330px;" class="navbar-brand d-inline-block text-truncate m-0 p-0" href="https://covid19.go.id/artikel/2022/03/18/monitoring-kepatuhan-protokol-kesehatan-tingkat-nasional-update-13-maret-2022">Monitoring Kepatuhan Protokol Kesehatan Tingkat Nasional (Update per 13 Maret 2022)</a>
                   </div>
                 </div>
                 <div class="carousel-item mb-3">
-                  <img src="/html-project/assets/1.png" class="d-block w-100" alt="...">
+                  <img src="img/1.png" class="d-block w-100" alt="...">
                   <div class="ps-1 pt-2">
                     <h6 class="m-0" style="font-size: 12px; color: brown;">14 Mar 2022</h6>
                     <a style="color: black; font-weight: bolder; max-width: 330px;" class="navbar-brand d-inline-block text-truncate m-0 p-0" href="https://covid19.go.id/artikel/2022/03/13/situasi-covid-19-di-indonesia-update-13-maret-2022">Situasi COVID-19 di Indonesia (Update per 13 Maret 2022)</a>
@@ -415,7 +423,9 @@
           </div>
       </div>
     </section>
-    <section>
+
+
+    <section class="harus-tahu mt-5 pt-5">
       <div class="container">
         <h1><b>Harus Tahu</b></h1>
         <p style="color: darkgrey;">Informasi penting agar terhindar dari berita hoax</p>
@@ -453,19 +463,19 @@
             </div>
           </div>
           <div class="row list-button mt-3 mb-3">
-              <div class="col-sm-3 right-col">
+              <div class="col-sm-3 right-col mt-3">
                 <button class="btn btn-block">
                   <a href="https://vaksinasi.id/subit" class="btn btn-block" style="color:#ffff;font-weight:700;" target="_blank"> 
                     Cari Lokasi Vaksin Di sini</a>
                 </button>
               </div>
-              <div class="col-sm-3 left-col">
+              <div class="col-sm-3 left-col mt-3">
                 <button class="btn btn-block">
                   <a href="https://vaksinasi.id/subit" class="btn btn-block" style="color:#ffff;font-weight:700;" target="_blank"> 
                     Kamu Punya Info Vaksinasi</a>
                 </button>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-6 mt-3">
                 <button class="btn btn-block">
                   <a href="https://vaksinasi.id/subit" class="btn btn-block" style="color:#ffff;font-weight:700;" target="_blank"> 
                     Ingin tahu efek setelah vaksin (KIPI)? Cek Disini.</a>
@@ -509,7 +519,7 @@
           </div>
         </div>
       </div>
-    </div>
+    
   
     <div class="row ">
       <p class="text-subscribe col-12 text-center">Untuk tetap update info terkini.</p>
@@ -524,12 +534,27 @@
     <div class="col text-center">
       <p class="text-copyright">Satuan Tugas Penanganan COVID-19 - © Copyright 2021. All Rights Reserved.</p>
     </div>
+  </div>
   </footer>
+
+  
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
+    <!-- Boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!-- Gsap text plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- Owl Carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
