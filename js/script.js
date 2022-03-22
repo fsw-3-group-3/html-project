@@ -52,3 +52,11 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+
+// Gsap
+gsap.registerPlugin(TextPlugin);
+gsap.to(".text-header", {
+  duration: 1.5,
+  delay: 1,
+  text: "Info Covid-19",
+});
