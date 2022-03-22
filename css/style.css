@@ -17,3 +17,22 @@
 .slider-card img {
   border-radius: 20px;
 }
+
+.btn {
+  background-color: #3250C0 ;
+}
+
+h5{
+  color: red;
+  font-weight: bold;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
